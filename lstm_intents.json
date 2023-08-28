@@ -1,0 +1,1009 @@
+{
+   "intents":[
+    {
+        "tag": "greetings",
+        "patterns": [
+          "hi",
+          "hello",
+          "hey",
+          "good day",
+          "what's up",
+          "howdy",
+          "aloha",
+          "greetings",
+          "salut",
+          "hola",
+          "Hey there",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Howdy",
+          "Aloha",
+          "Konnichiwa",
+          "Salut",
+          "Hola",
+          "Marhaba"
+        ],
+        "responses": [
+          "Hello!",
+          "Good to see you!",
+          "Hi there, how can I help you?"
+        ],
+        "context_set": ""
+      },      
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg",
+      "Farewell",
+      "Until next time",
+      "Take care",
+      "So long",
+      "See ya later",
+      "Gotta run",
+      "Adios",
+      "Catch you later",
+      "Have a great day",
+      "Time for me to leave",
+      "Bye for now",
+      "Off I go",
+      "See you soon",
+      "Leaving now",
+      "Later!",
+      "Till we meet again",
+      "See you next time",
+      "Signing off",
+      "See you on the flip side",
+      "See you tomorrow",
+      "Going to head out",
+      "Take it easy",
+      "Have a wonderful time",
+      "Have a safe journey",
+      "Adieu",
+      "Bon voyage",
+      "Stay well",
+      "Catch you on the flip side",
+      "Stay safe",
+      "Wishing you the best",
+      "See you in a bit",
+      "Time to say goodbye",
+      "Until we meet again",
+      "See you around",
+      "Till later",
+      "Peace out",
+      "See you in a while",
+      "Take care and goodbye",
+      "Stay in touch",
+      "Keep well",
+      "Take care",
+      "It was nice talking to you",
+      "I'll be in touch",
+      "I'll see you around",
+      "Until next time",
+      "Catch you later",
+      "Laters",
+      "Peace out",
+      "Adios",
+      "Sayonara",
+      "Farewell",
+      "Bon voyage",
+      "Safe travels",
+      "All the best",
+      "Take it easy",
+      "Have a good one",
+      "Have a great day",
+      "Enjoy the rest of your day",
+      "Have a wonderful evening",
+      "Have a good night",
+      "Sleep tight",
+      "Sweet dreams",
+      "See you in the morning",
+      "Talk to you tomorrow",
+      "I'll be back",
+      "I'll be in touch soon",
+      "I'll be around if you need anything",
+      "Don't be a stranger",
+      "It was a pleasure talking to you",
+      "I hope to see you again soon"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon",
+      "Farewell! Have a great day!",
+      "Take care and see you soon",
+      "Until next time!",
+      "Wishing you all the best",
+      "Have a wonderful time ahead",
+      "Stay safe and goodbye"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "College students"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me Mind Reader.",
+      "I'm Mind Reader",
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": ""
+},
+{
+    "tag": "college-working-hours",
+    "patterns": [
+      "timing of the college",
+      "what are the college timings",
+      "working days schedule",
+      "University's operating hours",
+      "University working schedule",
+      "when is the college open",
+      "what are your hours of operation",
+      "when is the college operational",
+      "college timing",
+      "what about the college timings",
+      "is the college open on Saturdays",
+      "tell me about the college timing",
+      "what is the schedule for college hours",
+      "when should I come to college",
+      "when should I attend college",
+      "what are my college hours",
+      "college timing schedule",
+      "college operational hours"
+    ],
+    "responses": [
+      "To know the working hours, please visit https://www.lincoln.ac.uk/studyatlincoln/postgraduate-whatyouneedtoknow/"
+    ],
+    "context_set": ""
+  },  
+  {
+    "tag": "contact-details",
+    "patterns": [
+      "contact details",
+      "how to reach the college",
+      "college phone number",
+      "how can I contact you",
+      "Can you provide your contact information",
+      "How do I get in touch with your team",
+      "I need to contact the college",
+      "Where can I find your contact details?",
+      "How can I get in touch with your team?",
+      "I want to talk to someone from your college",
+      "How can I reach the college administration?",
+      "Give me your contact details",
+      "Can you provide your phone number?",
+      "Tell me how to reach your college",
+      "Looking for ways to get in touch with your college"
+    ],
+    "responses": [
+      "For contact details, please visit https://www.lincoln.ac.uk/contactus/"
+    ],
+    "context_set": ""
+  },  
+{
+    "tag": "course-information",
+    "patterns": [
+       "course information",
+       "list of courses",
+       "what courses are offered?",
+       "branches available at your college?",
+       "Computer engineering courses",
+       "Tell me about courses",
+       "Can you provide a course list?",
+       "What programs do you offer?",
+       "Tell me the courses at University of Lincoln",
+       "Which subjects can I study?",
+       "Available fields of study?",
+       "Give me information about your courses",
+       "What subjects can I major in?",
+       "Courses list, please",
+       "Educational offerings",
+       "What courses are there in Computer Engineering?",
+       "Information about MSc Cloud Computing",
+       "Can you provide details about MSc Computer Science?"
+    ],
+    "responses": [
+       "For course details, visit https://www.lincoln.ac.uk/search/?f.Filter+by+Level%7CAllDocumentsFill=All&profile=_default_preview&profile=_default_preview&profile=_default_preview&query=%21padrenullquery&collection=lincoln-meta&f.Tabs%7Clincoln-courses=Courses"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fees",
+    "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of hostel",
+      "how much is the fees",
+      "hostel fees",
+      "fees for AC room",
+      "fees for non-AC room",
+      "fees for Ac room for girls",
+      "fees for non-Ac room for girls",
+      "fees for Ac room for boys",
+      "fees for non-Ac room for boys"
+    ],
+    "responses": [
+      "For fee details, please visit https://www.lincoln.ac.uk/studywithus/postgraduatestudy/feesandfunding/"
+    ],
+    "context_set": ""
+  },
+{
+    "tag": "location",
+    "patterns": [
+    "where is the college located",
+    "college is located at",
+    "where is the college",
+    "where is the college situated",
+    "tell me the college location",
+    "can you give me the college address",
+    "how can I reach the college",
+    "college location",
+    "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location?",
+      "where is university of Lincoln location",
+      "where isyour exact Location",
+      "collage exact location please",
+      "location please",
+      "Can you tell me where the college is located?",
+      "I need to know the exact location of the college",
+      "Where exactly is the college situated?",
+      "Tell me the address of the college",
+      "How can I reach the college?",
+      "What is the physical location of the college?",
+      "Please provide me with the college location",
+      "Where is the University of Lincoln located?",
+      "Give me the address of University of Lincoln",
+      "Can you tell me the college's exact address?",
+      "I want to know where the college is",
+      "How do I reach the college?",
+      "What is the college's location?",
+      "Where is University of Lincoln's campus?",
+      "Tell me about the college's address",
+      "Can you provide me the location of the college?",
+      "Where can I find the University of Lincoln?",
+      "What is the street address of the college?",
+      "I'm looking for the college's address",
+      "How can I get to University of Lincoln?",
+      "Where can I locate the college?",
+      "Tell me the physical address of the college",
+      "I need directions to the college",
+      "Where is University of Lincoln situated?",
+      "What is the full address of the college?",
+      "Can you give me directions to the college?",
+      "Where is the main campus of University of Lincoln?",
+      "I'm trying to find the college's location",
+      "Where can I find University of Lincoln?",
+      "What's the exact location of the college?",
+      "I want to know the address of University of Lincoln",
+      "How can I reach the campus of the college?",
+      "Tell me the location of University of Lincoln",
+      "What is the college's street address?",
+      "Where is the University of Lincoln campus?",
+      "I need the exact address of the college",
+      "How do I get to University of Lincoln?",
+      "Tell me the address of the main campus",
+      "Can you provide me the college's location?",
+      "Where is the University of Lincoln's main campus?",
+      "I'm looking for the college's physical location",
+      "What is the college's exact location?",
+      "Where can I find the University of Lincoln's campus?",
+      "Tell me the exact address of University of Lincoln",
+      "How can I reach the University of Lincoln's campus?",
+      "What is the full street address of the college?",
+      "Where is the University of Lincoln's main campus located?",
+      "I need directions to University of Lincoln",
+      "Where is the University of Lincoln situated exactly?",
+      "Tell me about University of Lincoln's address",
+      "How do I reach the main campus of the college?",
+      "What is the street address of University of Lincoln?",
+      "Where can I find the college's main campus?",
+      "Tell me the precise location of University of Lincoln",
+      "How can I get to the main campus of the college?",
+      "What is the exact street address of the college?",
+      "Where is the college's main campus?",
+      "I need the exact location of University of Lincoln",
+      "Tell me the specific address of the college",
+      "How do I reach University of Lincoln's campus?",
+      "What is the main campus location of the college?",
+      "Where can I locate University of Lincoln?",
+      "Tell me about the University of Lincoln's campus address",
+      "How can I reach University of Lincoln's main campus?",
+      "What is the main campus street address of the college?",
+      "Where is the college situated on the map?",
+      "I need to know the main campus location of the college",
+      "Tell me the campus address of University of Lincoln",
+      "How can I find University of Lincoln's main campus?",
+      "What is the precise street address of the college?",
+      "Where is University of Lincoln's campus situated?",
+      "I want to know the main campus address of the college",
+      "Tell me about the location of University of Lincoln's main campus",
+      "Can you guide me to the Minerva Building (MB)?",
+      "Where can I find the Alfred Tennyson Building (ATB)?",
+      "Could you show me the Stephen Langton Building (SLB) location?",
+      "I'm looking for Bridge House (BH). Can you help?",
+      "How do I get to the Janet Lane-Claypon Building (JLC)?",
+      "Where's the Nicola de la Haye Building (NDH) situated?",
+      "Can you provide directions to the Peter de Wint Building (PDW)?",
+      "Could you point me to the Isaac Newton Building (INB)?",
+      "Where's the Ross Lucas Medical Sciences Building (LMS)?",
+      "How do I find the David Chiddick Building (DCB)?",
+      "Can you guide me to the Joseph Banks Laboratories (JBL)?",
+      "Where can I locate the Sarah Swift Building (SSB)?",
+      "How do I get to the university library?",
+      "Can you show me the way to the student union?",
+      "Where's the sports center located on campus?",
+      "Could you provide directions to One Campus Way?",
+      "I'm looking for the Village Hall. Can you help?",
+      "How can I find The Swan on campus?",
+      "Where's the Student Well Being Center situated?",
+      "Can you guide me to the Doctors Health Service?",
+      "Where is the university please"
+    ],
+    "responses": [
+      "For location information please visit https://www.lincoln.ac.uk/studentlife/maps/"
+    ],
+    "context_set": ""
+  },  
+  {
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel servive",
+      "hostel location",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "Does college provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel college distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college"
+   ],
+   "responses": [
+      "For hostel detail visit https://www.lincoln.ac.uk"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",
+      "Are there any event held at college",
+      "Events?",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "For event detail visit https://www.lincoln.ac.uk"
+   ],
+   "context_set": ""
+},
+{
+    "tag": "admission_details",
+    "patterns": [
+       "admission details",
+       "admission requirements",
+       "how to apply for admission",
+       "admission process",
+       "documents needed for admission",
+       "What documents are required?",
+       "I want to apply for admission",
+       "Tell me about admission criteria",
+       "How do I get admitted?",
+       "What documents do I need?",
+       "Tell me about admission documents",
+       "What paperwork is required?",
+       "Can you list admission requirements?",
+       "What do I need for admission?"
+    ],
+    "responses": [
+       "For admission details, visit https://www.lincoln.ac.uk/studywithus/internationalstudents/entryrequirementsandyourcountry/"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "syllabus",
+    "patterns": [
+       "What is the syllabus for Information Technology?",
+       "Can you provide the syllabus for Computer Science?",
+       "Tell me about the Mechanical Engineering syllabus",
+       "Give me an overview of the Chemistry syllabus",
+       "What topics are covered in the Psychology syllabus?",
+       "Syllabus for Geography",
+       "I'm interested in the Media Studies syllabus",
+       "Tell me about the Nursing syllabus",
+       "What subjects are included in the Law syllabus?",
+       "Give me details about the History syllabus",
+       "Syllabus for Mathematics",
+       "What is the syllabus for Environmental Science?",
+       "I want to know about the Art and Design syllabus",
+       "What topics are covered in the Sociology syllabus?",
+       "Can you provide the syllabus for Linguistics?",
+       "Tell me about the Anthropology syllabus",
+       "Give me an overview of the Engineering syllabus"
+    ],
+    "responses": [
+       "For detailed information about the syllabus and timetable, please contact our academic department at pgenquiries@lincoln.ac.uk."
+    ],
+    "context_set": ""
+ },
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors"
+   ],
+   "responses": [
+      "My College has total 2 floors "
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for IT",
+      "what is the Information Technology syllabus",
+      "syllabus",
+      "timetable",
+      "what is IT syllabus",
+      "syllabus",
+      "What is next lecture"
+   ],
+   "responses": [
+      "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "is there any library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does the college have library facility",
+      "college library",
+      "where can i get books",
+      "book facility",
+      "Where is library",
+      "Library",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries"
+   ],
+   "responses": [
+      "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "infrastructure",
+   "patterns": [
+      "how is college infrastructure",
+      "infrastructure",
+      "college infrastructure"
+   ],
+   "responses": [
+      "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "Our university has canteen with variety of food available"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "menu",
+   "patterns": [
+      "food menu",
+      "food in canteen",
+      "Whats there on menu",
+      "what is available in college canteen",
+      "what foods can we get in college canteen",
+      "food variety",
+      "What is there to eat?"
+   ],
+   "responses": [
+      "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies"
+   ],
+   "responses": [
+      "For information about the college's placement process and the companies that visit, please visit https://www.lincoln.ac.uk/studyatlincoln/postgraduate-whatyouneedtoknow/"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ithod",
+   "patterns": [
+      "Who is HOD",
+      "Where is HOD",
+      "it hod",
+      "name of it hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (Place name)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "computerhod",
+   "patterns": [
+      "Who is computer HOD",
+      "Where is computer HOD",
+      "computer hod",
+      "name of computer hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "extchod",
+   "patterns": [
+      "Who is extc HOD",
+      "Where is  extc HOD",
+      "extc hod",
+      "name of extc hod"
+   ],
+   "responses": [
+      "Different school wise hod are different.So be more clear with your school or department"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "principal",
+   "patterns": [
+      "what is the name of principal",
+      "whatv is the principal name",
+      "principal name",
+      "Who is college principal",
+      "Where is principal's office",
+      "principal",
+      "name of principal"
+   ],
+   "responses": [
+      "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sem",
+   "patterns": [
+      "exam dates",
+      "exam schedule",
+      "When is semester exam",
+      "Semester exam timetable",
+      "sem",
+      "semester",
+      "exam",
+      "when is exam",
+      "exam timetable",
+      "exam dates",
+      "when is semester"
+   ],
+   "responses": [
+      "Here is the link for term dates.please visit  https://www.lincoln.ac.uk/studentlife/termdates/"
+   ],
+   "context_set": ""
+},
+ 
+ {
+    "tag": "placement",
+    "patterns": [
+       "What is the college's placement process?",
+       "Can you tell me which companies visit the college for placements?",
+       "What is the average package offered during placements?",
+       "Could you provide information about the companies that visit for recruitment?",
+       "Tell me more about the placement process.",
+       "I want to know about college placement.",
+       "What's the scene with placements?",
+       "How does the recruitment for placements work?",
+       "Which companies are involved in the placement process?"
+    ],
+    "responses": [
+       "For information about the college's placement process and the companies that visit, please visit https://www.lincoln.ac.uk/studyatlincoln/postgraduate-whatyouneedtoknow/"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "faculty_info",
+    "patterns": [
+       "Who is HOD",
+       "Where is HOD",
+       "it hod",
+       "name of it hod",
+       "staff details",
+       "student staff ratio",
+       "who is the program coordinator for msc cloud computing",
+       "who is the program coordinator for msc computer science",
+       "program leader",
+       "lecturer details",
+       "faculty details",
+       "Can you tell me about the faculty members in the Computer Science department?",
+       "Who is the Head of the Computer Engineering department?",
+       "Tell me about the faculty team for Mechanical Engineering.",
+       "Who is the program coordinator for the Information Technology program?",
+       "Can you provide information about the faculty members in the Chemical Engineering department?",
+       "Tell me about the teaching staff in the Civil Engineering department.",
+       "Who is responsible for the Architecture program as the program leader?",
+       "Tell me about the faculty members in the Economics department.",
+       "Who is the Academic Advisor for the Psychology department?",
+       "Can you provide information about the faculty members in the Sociology department?",
+       "Tell me about the faculty team for Environmental Science.",
+       "Who is the program coordinator for the Business Administration program?",
+       "Tell me about the faculty members in the Law department.",
+       "Who is the Academic Director for the Medical Sciences department?",
+       "Can you provide information about the faculty members in the Mathematics department?"
+      
+    ],
+    "responses": [
+       "You will get faculty info by clicking https://staff.lincoln.ac.uk"
+    ],
+    "context_set": ""
+ }, 
+
+
+ {
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "Is scholarship available",
+      "scholarship engineering",
+      "scholarship it",
+      "scholarship ce",
+      "scholarship mechanical",
+      "scholarship civil",
+      "scholarship chemical",
+      "scholarship for AI/ML",
+      "available scholarships",
+      "scholarship for computer engineering",
+      "scholarship for IT engineering",
+      "scholarship for mechanical engineering",
+      "scholarship for civil engineering",
+      "scholarship for chemical engineering",
+      "list of scholarship",
+      "comps scholarship",
+      "IT scholarship",
+      "mechanical scholarship",
+      "civil scholarship",
+      "chemical scholarship",
+      "automobile scholarship",
+      "first year scholarship",
+      "second year scholarship",
+      "third year scholarship",
+      "fourth year scholarship"
+   ],
+   "responses": [
+      "You can find detailed information about scholarships at https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "facilities",
+   "patterns": [
+      "What facilities college provide",
+      "College facility",
+      "What are college facilities",
+      "facilities",
+      "facilities provided"
+   ],
+   "responses": [
+      "To know more about university please visit college website here https://www.lincoln.ac.uk"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "college intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "seats"
+   ],
+   "responses": [
+      "To know more about university please visit college website here https://www.lincoln.ac.uk"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "uniform",
+   "patterns": [
+      "college dress code",
+      "college dresscode",
+      "what is the uniform",
+      "can we wear casuals",
+      "Does college have an uniform",
+      "Is there any uniform",
+      "uniform",
+      "what about uniform",
+      "do we have to wear uniform"
+   ],
+   "responses": [
+      "To know more about university please visit college website here https://www.lincoln.ac.uk"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "committee",
+   "patterns": [
+      "what are the different committe in college",
+      "different committee in college",
+      "Are there any committee in college",
+      "Give me committee details",
+      "committee",
+      "how many committee are there in college"
+   ],
+   "responses": [
+      "To know more about university please visit college website here https://www.lincoln.ac.uk"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "To know more about university please visit college website here https://www.lincoln.ac.uk"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sports",
+   "patterns": [
+      "sports and games",
+      "give sports details",
+      "sports infrastructure",
+      "sports facilities",
+      "information about sports",
+      "Sports activities",
+      "please provide sports and games information"
+   ],
+   "responses": [
+      "To know more about university please visit college website here https://www.lincoln.ac.uk"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hod",
+   "patterns": [
+      "hod",
+      "hod name",
+      "who is the hod"
+   ],
+   "responses": [
+      "To know more about university please visit college website here https://www.lincoln.ac.uk"
+   ],
+   "context_set": ""
+}
+ 
+]
+}
