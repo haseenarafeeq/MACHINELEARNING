@@ -1,0 +1,88 @@
+﻿count,Intent,Algorithm,F1_Score,Precision,Recall
+0,Accommodation,Naïve Bayes,1,1,1
+0,Accommodation,LSTM,1,1,1
+0,Accommodation,SVM,1,1,1
+1,admission_details,Naïve Bayes,0,0,0
+1,admission_details,LSTM,,,
+1,admission_details,SVM,1,1,1
+2,college-intake,Naïve Bayes,,,
+2,college-intake,LSTM,0.67,1,0.5
+2,college-intake,SVM,1,1,1
+3,college-working-hours,Naïve Bayes,,,
+3,college-working-hours,LSTM,0.86,0.75,1
+3,college-working-hours,SVM,0,0,0
+4,contact-details,Naïve Bayes,0.67,1,0.5
+4,contact-details,LSTM,1,1,1
+4,contact-details,SVM,1,1,1
+5,course-information,Naïve Bayes,0.89,0.8,1
+5,course-information,LSTM,0,0,0
+5,course-information,SVM,1,0.5,0.67
+6,course-information/Msc cloud computing,Naïve Bayes,1,1,1
+6,course-information/Msc cloud computing,LSTM,1,1,1
+6,course-information/Msc cloud computing,SVM,,,
+7,course-information/Msc computer science postgraduate taught,Naïve Bayes,1,1,1
+7,course-information/Msc computer science postgraduate taught,LSTM,1,1,1
+7,course-information/Msc computer science postgraduate taught,SVM,0.67,1,0.8
+8,creator,Naïve Bayes,1,1,1
+8,creator,LSTM,,,
+8,creator,SVM,1,1,1
+9,event,Naïve Bayes,,,
+9,event,LSTM,1,1,1
+9,event,SVM,0,0,0
+10,faculty-info,Naïve Bayes,0.67,1,0.5
+10,faculty-info,LSTM,1,1,1
+10,faculty-info,SVM,1,1,1
+11,fees,Naïve Bayes,1,1,1
+11,fees,LSTM,1,1,1
+11,fees,SVM,1,1,1
+12,goodbye,Naïve Bayes,0.81,0.72,0.93
+12,goodbye,LSTM,0.9,0.9,0.9
+12,goodbye,SVM,0.65,1,0.79
+13,greetings,Naïve Bayes,0.67,0.5,1
+13,greetings,LSTM,0.86,0.75,1
+13,greetings,SVM,,,
+14,library,Naïve Bayes,1,1,1
+14,library,LSTM,1,1,1
+14,library,SVM,1,0.67,0.8
+15,location,Naïve Bayes,0.9,0.87,0.93
+15,location,LSTM,1,1,1
+15,location,SVM,1,1,1
+16,name,Naïve Bayes,0,0,0
+16,name,LSTM,0.67,0.5,1
+16,name,SVM,,,
+17,placement,Naïve Bayes,,,
+17,placement,LSTM,,,
+17,placement,SVM,,,
+18,ragging,Naïve Bayes,1,1,1
+18,ragging,LSTM,1,1,1
+18,ragging,SVM,1,1,1
+19,random,Naïve Bayes,0,0,0
+19,random,LSTM,0.91,1,0.83
+19,random,SVM,1,1,1
+20,saluation,Naïve Bayes,0,0,0
+20,saluation,LSTM,1,1,1
+20,saluation,SVM,0,0,0
+21,scholarship,Naïve Bayes,1,1,1
+21,scholarship,LSTM,1,1,1
+21,scholarship,SVM,1,0.85,0.67
+22,sports,Naïve Bayes,0,0,0
+22,sports,LSTM,,,
+22,sports,SVM,1,1,1
+23,swear,Naïve Bayes,0,0,0
+23,swear,LSTM,1,1,1
+23,swear,SVM,0,0,0
+24,syllabus,Naïve Bayes,1,1,1
+24,syllabus,LSTM,0.67,1,0.5
+24,syllabus,SVM,1,1,1
+25,task,Naïve Bayes,0,0,0
+25,task,LSTM,1,1,1
+25,task,SVM,,,
+26,term_dates,Naïve Bayes,1,1,1
+26,term_dates,LSTM,1,1,1
+26,term_dates,SVM,1,0.67,0.8
+27,uniform ,Naïve Bayes,,,
+27,uniform ,LSTM,0.67,0.5,1
+27,uniform ,SVM,,,
+28,vacation,Naïve Bayes,1,1,1
+28,vacation,LSTM,1,1,1
+28,vacation,SVM,1,0.67,0.8

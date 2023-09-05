@@ -7,7 +7,6 @@ from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import LSTM, Dense, Embedding
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
-
 from general_functions import replaceCommonWords
 
 intent_model_file = 'intent_model.h5'
@@ -43,8 +42,8 @@ Y = label_encoder.fit_transform(intents)
 
 # LSTM model for intent recognition
 model = Sequential()
-model.add(Embedding(input_dim=len(tokenizer.word_index) + 1, output_dim=128, input_length=max_sequence_length))
-model.add(LSTM(128))
+model.add(Embedding(input_dim=len(tokenizer.word_index) + 1, output_dim=64, input_length=max_sequence_length))
+model.add(LSTM(64))
 model.add(Dense(len(set(Y)), activation='softmax'))
 
 model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
@@ -52,11 +51,11 @@ model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=
 if os.path.exists(intent_model_file):
     model = load_model(intent_model_file)
 else:
-    model.fit(X, Y, epochs=100, batch_size=1)
+    model.fit(X, Y, epochs=5, batch_size=1)
     model.save(intent_model_file)
 
 # Define a threshold for intent prediction probability (adjust as needed)
-intent_threshold = 0.5
+intent_threshold = 0.4
 
 def lstmAnswer(user_input=''):
 
@@ -87,9 +86,9 @@ def lstmAnswer(user_input=''):
         if response_array:
             response = random.choice(response_array)
         else:
-            response = "I'm sorry, I didn't get your question. can you please elabrate."
+            response = "I'm sorry, I didn't get your question. can you please ask in a different way so that I can understand"
     else:
-        response = "I'm sorry, I didn't get your question. can you please elabrate."
+        response = "I'm sorry, I didn't get your question. can you please ask in a different way so that I can understand"
 
     return response, accuracy    
 

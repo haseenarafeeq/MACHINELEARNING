@@ -1,0 +1,52 @@
+Intent,Algorithm,F1_Score,Precision,Recall
+Accommodation,Naïve Bayes,1,1,1
+Accommodation,LSTM,1,1,1
+Accommodation,SVM,1,1,1
+contact-details,Naïve Bayes,0.67,1,0.5
+contact-details,LSTM,1,1,1
+contact-details,SVM,1,1,1
+course-information,Naïve Bayes,0.89,0.8,1
+course-information,LSTM,0,0,0
+course-information,SVM,1,0.5,0.67
+course-information/Msc computer science postgraduate taught,Naïve Bayes,1,1,1
+course-information/Msc computer science postgraduate taught,LSTM,1,1,1
+course-information/Msc computer science postgraduate taught,SVM,0.67,1,0.8
+faculty-info,Naïve Bayes,0.67,1,0.5
+faculty-info,LSTM,1,1,1
+faculty-info,SVM,1,1,1
+fees,Naïve Bayes,1,1,1
+fees,LSTM,1,1,1
+fees,SVM,1,1,1
+goodbye,Naïve Bayes,0.81,0.72,0.93
+goodbye,LSTM,0.9,0.9,0.9
+goodbye,SVM,0.65,1,0.79
+library,Naïve Bayes,1,1,1
+library,LSTM,1,1,1
+library,SVM,1,0.67,0.8
+location,Naïve Bayes,0.9,0.87,0.93
+location,LSTM,1,1,1
+location,SVM,1,1,1
+ragging,Naïve Bayes,1,1,1
+ragging,LSTM,1,1,1
+ragging,SVM,1,1,1
+random,Naïve Bayes,0,0,0
+random,LSTM,0.91,1,0.83
+random,SVM,1,1,1
+saluation,Naïve Bayes,0,0,0
+saluation,LSTM,1,1,1
+saluation,SVM,0,0,0
+scholarship,Naïve Bayes,1,1,1
+scholarship,LSTM,1,1,1
+scholarship,SVM,1,0.85,0.67
+swear,Naïve Bayes,0,0,0
+swear,LSTM,1,1,1
+swear,SVM,0,0,0
+syllabus,Naïve Bayes,1,1,1
+syllabus,LSTM,0.67,1,0.5
+syllabus,SVM,1,1,1
+term_dates,Naïve Bayes,1,1,1
+term_dates,LSTM,1,1,1
+term_dates,SVM,1,0.67,0.8
+vacation,Naïve Bayes,1,1,1
+vacation,LSTM,1,1,1
+vacation,SVM,1,0.67,0.8

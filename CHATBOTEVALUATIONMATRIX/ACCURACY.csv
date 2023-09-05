@@ -1,0 +1,4 @@
+﻿Algorithm,Accuracy
+Naïve Bayes,0.835616438
+LSTM,0.921875
+SVM,0.875
